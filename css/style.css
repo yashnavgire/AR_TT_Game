@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Wendy+One');
+
+body {
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Wendy One', sans-serif; */
+}
+
+#container {
+  position: absolute;
+  color: white;
+  text-align: center;
+  margin-left: 40%;
+}
+
+#title {
+  font-size: 30px;
+}
+
+#scoreboard {
+  font-size: 35px;
+  width: 600px;
+}
+
+#my-gui-container {
+	position: absolute;
+    left: 600px;   /* position inside relatively positioned parent */
+	top: 150px;
+    z-index: 0;   /* adjust as needed */
+}
+
+#textDisplay{
+  position:absolute;
+  color:white;
+  text-align : left;
+  font-size: 15px;
+  margin-left : 10%;
+  margin-top : 40%;
+}
