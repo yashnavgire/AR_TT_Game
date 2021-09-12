@@ -290,7 +290,9 @@ app.config = {
 }
 
 
-const BASE = 'https://raw.githubusercontent.com/liaa2/Ping-Pong-Nano-Cup/master/';
+//const BASE = 'https://raw.githubusercontent.com/liaa2/Ping-Pong-Nano-Cup/master/';
+
+const BASE = 'https://github.com/yashnavgire/AR_TT_Game/master/';
 
 app.humanPaddleSound = new Audio(`${BASE}audio/paddle1.mp3`);
 app.aiPaddleSound = new Audio(`${BASE}audio/paddle2.mp3`);
