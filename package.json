@@ -1,0 +1,23 @@
+{
+  "name": "AR_TT_Game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "paddle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashnavgire/AR_TT_Game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yashnavgire/AR_TT_Game/issues"
+  },
+  "homepage": "https://github.com/yashnavgire/AR_TT_Game#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
