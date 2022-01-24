@@ -35,7 +35,6 @@ function setup() {
          width: 640 pixels and
          height: 480 pixels
   */
-  console.log("in setup ");
   let cnv=createCanvas(400, 400);
   cnv.position(0,0);
   // get webcam input
@@ -293,8 +292,9 @@ app.config = {
 
 //const BASE = 'https://raw.githubusercontent.com/liaa2/Ping-Pong-Nano-Cup/master/';
 
-const BASE = 'http://localhost:3000/';
+//const BASE = 'http://localhost:3000/';
 
+const BASE = 'https://ar-tt-game.herokuapp.com/';
 
 app.humanPaddleSound = new Audio(`${BASE}audio/paddle1.mp3`);
 app.aiPaddleSound = new Audio(`${BASE}audio/paddle2.mp3`);
