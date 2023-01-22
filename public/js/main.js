@@ -294,7 +294,7 @@ app.config = {
 
 //const BASE = 'http://localhost:3000/';
 
-const BASE = 'https://ar-tt-game.herokuapp.com/';
+const BASE = 'https://ar-table-tennis-game.onrender.com/';
 
 app.humanPaddleSound = new Audio(`${BASE}audio/paddle1.mp3`);
 app.aiPaddleSound = new Audio(`${BASE}audio/paddle2.mp3`);
